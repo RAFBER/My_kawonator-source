@@ -11,15 +11,23 @@
         <section id="section_gh2_vqf_cpb" product="product1"><title><keyword keyref="company"/>
                 <keyword keyref="product1"/></title><p>The <keyword keyref="product1"/> is a
                 superior single-cup espresso machine model.</p><image href="../images/KW100.jpg"
-                width="400px" id="image_uhw_zrf_cpb"/><image href="../images/KW100_01.jpg"
-                id="image_pb3_r14_npb"/><image href="../images/KW100_02.jpg" id="image_m2h_s14_npb"
+                width="400px" id="image_zcf_pn4_npb"/></section>
+        <section product="product1" id="section_adf_pn4_npb"><image href="../images/KW100_01.jpg"
+                id="image_rj2_nn4_npb"
+                width="400px"/><image href="../images/KW100_02.jpg" id="image_ahs_sn4_npb"
+                width="410px"
             /></section>
         <section id="section_exv_frf_cpb" product="product2"><title><keyword keyref="company"/>
                 <keyword keyref="product2"/></title><p>The <keyword keyref="product2"/> is a
                 top-tier espresso machine capable of simultaneously brewing two cups of silky,
                 aromatic espresso.</p><image href="../images/KW200.jpg" id="image_g3m_yrf_cpb"
-                width="400px"/><image href="../images/KW200_01.jpg" id="image_f4x_s14_npb"/><image
-                href="../images/KW200_02.jpg" id="image_hvj_t14_npb"/></section>
+                width="400px"/></section>
+        <section product="product2" id="section_tc4_5k4_npb"><image href="../images/KW200_01.jpg"
+                id="image_f4x_s14_npb"
+                width="400px"/></section>
+        <section product="product2" id="section_ztw_vk4_npb"><image href="../images/KW200_02.jpg"
+                id="image_hvj_t14_npb"
+                width="400px"/></section>
         <section id="section_czc_tgg_cpb" audience="html">
             <title>Documentation downloads</title>
             <ul id="ul_ttj_ygg_cpb" audience="consumer">

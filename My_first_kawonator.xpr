@@ -7,14 +7,34 @@
                 <serializableOrderedMap>
                     <entry>
                         <String>keys.context</String>
-                        <String>${pdu}/KW200_maintenance_guide.ditamap</String>
+                        <String>${pdu}/KW100_maintenance_guide.ditamap</String>
                     </entry>
                     <entry>
                         <String>scenario.associations</String>
                         <scenarioAssociation-array>
                             <scenarioAssociation>
                                 <field name="url">
-                                    <String>KW100_consumer_guide.ditamap</String>
+                                    <String>topics/c_introduction.dita</String>
+                                </field>
+                                <field name="scenarioIds">
+                                    <list>
+                                        <String>PDF2</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioTypes">
+                                    <list>
+                                        <String>DITAMAP</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioStorageLocations">
+                                    <list>
+                                        <Byte>2</Byte>
+                                    </list>
+                                </field>
+                            </scenarioAssociation>
+                            <scenarioAssociation>
+                                <field name="url">
+                                    <String>KW200_consumer_guide.ditamap</String>
                                 </field>
                                 <field name="scenarioIds">
                                     <list>
@@ -35,6 +55,26 @@
                             <scenarioAssociation>
                                 <field name="url">
                                     <String>KW100_maintenance_guide.ditamap</String>
+                                </field>
+                                <field name="scenarioIds">
+                                    <list>
+                                        <String>PDF2</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioTypes">
+                                    <list>
+                                        <String>DITAMAP</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioStorageLocations">
+                                    <list>
+                                        <Byte>2</Byte>
+                                    </list>
+                                </field>
+                            </scenarioAssociation>
+                            <scenarioAssociation>
+                                <field name="url">
+                                    <String>KW100_consumer_guide.ditamap</String>
                                 </field>
                                 <field name="scenarioIds">
                                     <list>
@@ -94,26 +134,6 @@
                             </scenarioAssociation>
                             <scenarioAssociation>
                                 <field name="url">
-                                    <String>KW200_consumer_guide.ditamap</String>
-                                </field>
-                                <field name="scenarioIds">
-                                    <list>
-                                        <String>PDF2</String>
-                                    </list>
-                                </field>
-                                <field name="scenarioTypes">
-                                    <list>
-                                        <String>DITAMAP</String>
-                                    </list>
-                                </field>
-                                <field name="scenarioStorageLocations">
-                                    <list>
-                                        <Byte>2</Byte>
-                                    </list>
-                                </field>
-                            </scenarioAssociation>
-                            <scenarioAssociation>
-                                <field name="url">
                                     <String>glossary/glossary.ditamap</String>
                                 </field>
                                 <field name="scenarioIds">
@@ -148,10 +168,10 @@
                                     <String>${cfd}</String>
                                 </field>
                                 <field name="outputDir">
-                                    <String>C:\git\kawonator-docs\topics\</String>
+                                    <String>F:\01_STUDIA\1_My_kawonator\My_kawonator-docs\topics</String>
                                 </field>
                                 <field name="tempDir">
-                                    <String>C:\git\DITA-output-temp</String>
+                                    <String>F:\01_STUDIA\1_My_kawonator\My_kawonator-temp</String>
                                 </field>
                                 <field name="transtype">
                                     <String>pdf2</String>
@@ -319,10 +339,10 @@
                                     <String>${cfd}</String>
                                 </field>
                                 <field name="outputDir">
-                                    <String>C:\git\kawonator-docs</String>
+                                    <String>F:\01_STUDIA\1_My_kawonator\My_kawonator-docs</String>
                                 </field>
                                 <field name="tempDir">
-                                    <String>C:\git\DITA-output-temp</String>
+                                    <String>F:\01_STUDIA\1_My_kawonator\My_kawonator-temp</String>
                                 </field>
                                 <field name="transtype">
                                     <String>webhelp-responsive</String>
@@ -361,10 +381,10 @@
                                 <field name="publishingTemplateDataPO">
                                     <publishingTemplate>
                                         <field name="templateRoot">
-                                            <String>${configured.ditaot.dir}/plugins/com.oxygenxml.webhelp.responsive/templates/ashes</String>
+                                            <String>${configured.ditaot.dir}/plugins/com.oxygenxml.webhelp.responsive/templates/cobalt</String>
                                         </field>
                                         <field name="descriptorRelativePath">
-                                            <String>ashes-tiles.opt</String>
+                                            <String>cobalt-tiles.opt</String>
                                         </field>
                                         <field name="isCustomTemplate">
                                             <Boolean>false</Boolean>
