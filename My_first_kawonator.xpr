@@ -6,6 +6,10 @@
             <serialized xml:space="preserve">
                 <serializableOrderedMap>
                     <entry>
+                        <String>keys.context</String>
+                        <String>${pdu}/KW200_maintenance_guide.ditamap</String>
+                    </entry>
+                    <entry>
                         <String>scenario.associations</String>
                         <scenarioAssociation-array>
                             <scenarioAssociation>
@@ -552,7 +556,7 @@
             </serialized>
         </options>
     </meta>
-    <projectTree name="kawonator-source.xpr">
+    <projectTree name="My_kawonator.xpr">
         <folder path="."/>
     </projectTree>
 </project>

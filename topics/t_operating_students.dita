@@ -16,10 +16,9 @@
                             cord.</cmd>
                     </substep>
                     <substep>
-                        <cmd>Remove the <term keyref="g_portafilter"></term> if locked
-                            into the <term keyref="g_brew_head"></term> and move the <term
-                                keyref="g_steam_wand"></term> to the side of the
-                            machine.</cmd>
+                        <cmd>Remove the <term keyref="g_portafilter"/> if locked into the <term
+                                keyref="g_brew_head"/> and move the <term keyref="g_steam_wand"/> to
+                            the side of the machine.</cmd>
                     </substep>
                     <substep>
                         <cmd>Remove the Water Tank by pulling with the handle insert in the front of
